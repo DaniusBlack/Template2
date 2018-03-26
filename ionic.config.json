@@ -1,0 +1,16 @@
+{
+  "name": "slackui",
+  "app_id": "0b3a57cd",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
+}
